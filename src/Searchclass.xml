@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="ChromeTest">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="lg4j.Searchclass"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="FirefoxTest">
+  <parameter name="browser" value="firefox" />
+    <classes>
+      <class name="lg4j.Searchclass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
